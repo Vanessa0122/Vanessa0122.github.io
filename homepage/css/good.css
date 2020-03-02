@@ -1,0 +1,214 @@
+body {
+  font-family: "Arial", serif;
+  line-height: 1.5;
+  background: url(../images/background.JPG) fixed 100%;
+  background-size: cover; /*One pic cover the whole background*/
+}
+
+
+#prettyButton{
+  visibility: hidden;
+}
+
+#uglyButton{
+  position: absolute;
+  top: 20%;
+  left: 1%; 
+  border-radius: 20%;
+  background-color: rgba(123, 176, 255, 0.411);
+  color: white;
+}
+
+
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(129, 209, 255, 0.589);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.nav-links li{
+  list-style: none;
+}
+
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+section h1{
+  text-transform: uppercase;
+}
+
+header {
+  text-align: center;
+  padding: 200px 50px;
+}
+
+header h1 {
+  font-family: "Arial";
+  font-size: 50px;
+  color:white;
+  text-align: center;
+  padding: 200px 50px;
+}
+
+header h2 {
+  font-size: 22px;
+  color:white;
+} 
+
+/* Color is the same for every other section
+https://www.w3schools.com/cssref/sel_nth-child.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child*/
+
+section:nth-child(2n+1) {
+  background: #fffefa8c;
+  padding: 0%;
+}
+
+section:nth-child(2n+2) {
+  color: #fff;
+  background: rgba(22, 22, 22, 0.315);
+  padding: 0%
+} 
+
+.content-wrap {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* ABOUT ME
+----------------------*/
+.profile-image{
+  margin-right: 1%;
+  padding: 5pt;
+  width: 100pt;
+}
+
+/*Hiding Enoki's gif for my pretty website*/
+.resize{
+  width: 0px;
+  height: auto;
+}
+
+/* EDUCATION
+-------------*/
+.education .content-wrap {
+  flex-direction: column;
+}
+
+.education h1 {
+  color:white;
+  font-size: 30px;
+}
+
+.education h2 {
+  text-transform: uppercase;
+}
+
+.education h3 {
+  line-height: 0em;
+  color: #f7f7f7;
+}
+
+.education .item {
+  flex-direction: column;
+}
+
+
+/* WORK EXPERIENCE & EDUCATION */
+.item {
+  display: flex;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+
+/* WORK EXPERIENCE
+-------------------*/
+
+.work-experience .content-wrap {
+  flex-direction: column;
+}
+
+.work-experience .date {
+  font-size: 15px;
+}
+
+.work-experience h1 {
+  color:rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+section:nth-child(4) {
+  background: rgba(12, 12, 12, 0.61);
+} 
+
+.work-experience h2 {
+  font-size: 18px;
+}
+
+.work-experience h3 {
+  font-size: 15px;
+}
+
+.work-experience h4 {
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.work-experience .details {
+  /*Aligning the texts for description and details https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+  flex: 0 0 20%;
+}
+
+.work-experience .description {
+  font-size: 15px;
+}
+
+/* Skills and Me */
+
+.Skills .content-wrap{
+  flex-direction: column;
+}
+
+.Skills h4{
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.Me .content-wrap{
+  flex-direction: column;
+}
+
+.Me h2{
+  font-size: 15px;
+}
+
+.Me h4{
+  font-weight: normal;
+  font-size: 15px;
+}
+
