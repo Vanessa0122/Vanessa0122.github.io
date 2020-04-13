@@ -52,6 +52,9 @@ nav{
   font-size: 15px;
 }
 
+p{
+  color: white;
+}
 
 section h1{
   text-transform: uppercase;
@@ -75,9 +78,7 @@ header h2 {
   color:white;
 } 
 
-/* Color is the same for every other section
-https://www.w3schools.com/cssref/sel_nth-child.asp
-https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child*/
+
 
 section:nth-child(2n+1) {
   background: #fffefa8c;
@@ -118,7 +119,7 @@ section:nth-child(2n+2) {
 }
 
 .education h1 {
-  color:white;
+  color:black;
   font-size: 30px;
 }
 
@@ -128,7 +129,7 @@ section:nth-child(2n+2) {
 
 .education h3 {
   line-height: 0em;
-  color: #f7f7f7;
+  color: black;
 }
 
 .education .item {
@@ -158,7 +159,7 @@ section:nth-child(2n+2) {
 }
 
 .work-experience h1 {
-  color:rgb(0, 0, 0);
+  color: white;
   font-size: 30px;
 }
 
@@ -186,17 +187,6 @@ section:nth-child(4) {
 
 .work-experience .description {
   font-size: 15px;
-}
-
-/* Skills and Me */
-
-.Skills .content-wrap{
-  flex-direction: column;
-}
-
-.Skills h4{
-  font-size: 15px;
-  font-weight: normal;
 }
 
 .Me .content-wrap{
