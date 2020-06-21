@@ -175,15 +175,15 @@ section:nth-child(4) {
 }
 
 
-.Me .content-wrap{
+.More .content-wrap{
   flex-direction: column;
 }
 
-.Me h2{
+.More h2{
   font-size: 15px;
 }
 
-.Me h4{
+.More h4{
   font-weight: normal;
   font-size: 15px;
 }
